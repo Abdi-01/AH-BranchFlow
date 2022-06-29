@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../Components/Carousel";
 import SidebarComponent from '../Components/Sidebar';
-
+import Leftbar from "./Leftbar";
 const Landing = () => {
 
     return (
@@ -55,7 +55,7 @@ const Landing = () => {
                 <div
                     className='col-md-8 order-md-1'
                 >
-                    BG-4
+                    <Leftbar />
                 </div>
                 <SidebarComponent />
             </div>
