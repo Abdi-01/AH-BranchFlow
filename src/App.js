@@ -9,7 +9,7 @@ function App() {
     <div>
     <NavbarComponent />
       <Routes>
-        <Route path='/' element={<Landing />} />
+        <Route path='/' element={<LandingPage />} />
       </Routes>
     </div>
   );
