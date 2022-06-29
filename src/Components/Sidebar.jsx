@@ -3,7 +3,7 @@ import React from 'react';
 const SidebarComponent = (props) => {
 
     return (<div
-        className='col-md-4 order-md-2 ms-2'
+        className='col-md-4 order-md-2 pt-5 ms-2'
     >
         <div
             className='text-start mb-1 pb-5'
