@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import React from "react";
 import LandingPage from "./Pages/Landing";
 import NavbarComponent from "./Components/Navbar";
-import Leftbar from "./Pages/Leftbar";
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
       </Routes>
-      <Leftbar />
+      <Footer />
     </div>
   );
 }
