@@ -1,9 +1,11 @@
 import React from "react";
+import Carousel from "../Components/Carousel";
 
 const Landing = () => {
 
   return (
     <div class="container">
+     <Carousel />
       <div class="row">
         <div class="col-md-6">
           <div class="card">

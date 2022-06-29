@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Landing from './Pages/Landing';
 import { Routes, Route } from "react-router-dom";
 import React from 'react';
-
+import LandingPage from './Pages/Landing';
+import NavbarComponent from './Components/Navbar';
 function App() {
   return (
     <div>
+    <NavbarComponent />
       <Routes>
         <Route path='/' element={<Landing />} />
       </Routes>
